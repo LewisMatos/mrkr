@@ -1,0 +1,17 @@
+CREATE TABLE links(
+	id SERIAL PRIMARY KEY,
+	uri TEXT,
+	project INT NOT NULL
+);
+
+CREATE TABLE projects(
+	id SERIAL PRIMARY KEY
+);
+
+CREATE TABLE users(
+	id SERIAL PRIMARY KEY
+);
+
+CREATE TABLE userproj(
+	id SERIAL PRIMARY KEY
+);
